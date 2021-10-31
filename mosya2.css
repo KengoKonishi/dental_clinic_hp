@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{box-sizing:border-box;}
+/*ヘッダー部分*/
+body{
+	background-color:#F6F6F6;
+	font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+	color:#515151;
+}
+header{
+  height:230px;
+}
+.header-top{
+  height:7px;
+  background-color:#6CC6C4;
+}
+.container{
+  width:930px;
+	margin:0 auto;
+}
+.header-top .container{
+	height:223px;
+}
+
+.header-left{
+	padding-top:50px;
+  float:left;
+}
+
+.header-right{
+	width:235px;
+	height:130px;
+	display:inline-block;
+	margin-left:430px;
+}
+.header-right p{
+	font-size:10px;
+	padding:15px 0;
+}
+.phonenumber{
+	font-size:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.appointment-time{
+	border:1px solid #D6D6D6;
+	font-size:10px;
+	padding:10px 17px;
+}
+.sunday{
+	color:#B22C00;
+	font-size:10px;
+	display:inline-block;
+}
+.my-gray{
+	color:gray;
+}
+
+.header-main{
+	width:100%;
+	height:75px;
+}
+
+span{
+	color:white;
+	font-size:14.4px;
+	display:block;
+}
+.menu:hover span,.menu-start:hover span,.menu-last:hover span{
+	opacity:0.3;
+}
+
+.menu,.menu-start,.menu-last{
+	float: left;
+}
+.menu:hover,.menu-start:hover,.menu-last:hover{
+	background:linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+.menu a,.menu-start a,.menu-last a{
+	text-decoration: none;
+	display:block;
+}
+
+.menu-start{
+	border-left:1px solid #6CC6C4;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.menu-last{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.header-main li{
+	width:19.8%;
+	text-align:center;
+	padding:20px 0;
+	border-right:1px solid #6CC6C4;
+	border-top:1px solid #6CC6C4;
+	border-bottom:1px solid #6CC6C4;
+	background-color:#6CC6C4;
+	text-shadow: 1px 1px #6CC6C4;
+	background:linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  font-weight:bold;
+	display:block;
+}
+
+.en{
+	display:block;
+	font-size:10px;
+	padding-top:5px;
+}
+
+/*メイン部分の右*/
+.main .container{
+	height:720px;
+}
+.main-right{
+ width:640px;
+ float:right;
+}
+.main-image{
+	height:280px;
+}
+.main-news{
+	height:415px;
+	background-color:white;
+	margin-top:8px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.news-container{
+	width:600px;
+	margin:0 auto;
+}
+.news-title{
+	font-size:16px;
+	font-weight:bold;
+	padding:35px 0 20px 0;
+	border-bottom:3px solid #6CC6C4;
+	margin-bottom:15px;
+}
+dl{
+	padding:0 11px;
+}
+dt{
+	font-weight:bold;
+	font-size:13px;
+	padding:15px 0;
+	width:115px;
+	float: left;
+}
+dd{
+	padding:15px 0 15px 144px;
+	font-size:13px;
+	border-bottom:1px solid #CCCCCC;
+}
+.main-left{
+	width:280px;
+}
+.submenu-first,.submenu-second{
+	height:235px;
+	width:260px;
+	background-color:white;
+	border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+	border:1px solid #6CC6C4;
+}
+
+.wrapper{
+ font-size:16px;
+ font-weight:bold;
+ color:white;
+ padding:14px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+
+ background-color:#6CC6C4;
+ background:linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+ }
+a{
+	text-decoration: none;
+ }
+.submenu-list{
+	padding:14px;
+	margin:0 14px;
+	color:#595959;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:1px solid #6CC6C4;
+}
+.submenu-list:hover{
+	color:#6CC6C4;
+}
+.size{
+	color:#6CC6C4;
+	margin-right:10px;
+	font-size:0.7em;
+}
+.submenu-second{
+	margin-top:20px;
+}
+
+/*フッター部分*/
+footer .container{
+	height:135px;
+}
+.footer-list{
+	height:30px;
+	background-color:#6CC6C4;
+	color:white;
+	font-size:13px;
+	border-radius:5px;
+}
+.footer-list .size{
+	color:white;
+	font-size:0.9em;
+}
+.footer-list a{
+	color:white;
+}
+.footer-list a:hover{
+  text-decoration: underline;
+}
+.footer-list ul{
+	padding:8px 15px;
+}
+.footer-list li{
+	float: left;
+	margin-right:20px;
+}
+.footer-adress{
+	height:51px;
+	border-bottom:2px solid #6CC6C4;
+}
+.adress-container{
+  float:right;
+}
+h5{
+	float:left;
+	font-size:13px;
+	color:#515151;
+	padding-top:18px;
+	padding-bottom:18px;
+	padding-right:5px;
+}
+.name{
+	font-weight:bold;
+}
+.copyright{
+	font-size:12px;
+	color:#515151;
+	text-align:center;
+	padding:16px 0 20px 0;
+}
